@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[project]
+name = "py"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "bini59", email = "myuni0234@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
