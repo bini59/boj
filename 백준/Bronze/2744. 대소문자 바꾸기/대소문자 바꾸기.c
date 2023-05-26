@@ -1,0 +1,1 @@
+char a[101];int main(){scanf("%s",a);for(int i=0;;i++){if(a[i]=='\0'){break;}if(a[i]<=90)a[i]+=32;else{a[i]-=32;}}puts(a);}
